@@ -1,2 +1,2 @@
 # amd_nintex_forms
-Technique for bundling  JavaScript AMD modules into Nintex Forms for SharePoint Online and OnPrem.
+Technique for bundling  JavaScript AMD modules into Nintex Forms for SharePoint Online and OnPrem.  It contains a simple gulp file with a watch function for uploading files automatically.  You will have to add in your site credentials using the sharepoint.config.json file for this feature to work.  You may also just upload the files manually if gulp isn't really your thing and it will still work.
