@@ -1,9 +1,9 @@
 
 'use strict';
 
-_spBodyOnLoadFunctionNames.push("grant_or_remove_user_access");
+_spBodyOnLoadFunctionNames.push("load_example_app");
 
-function grant_or_remove_user_access() {
+function load_example_app() {
     var appPath = _spPageContextInfo.webAbsoluteUrl + '/SiteAssets/scripts/example';
     var createElementScript = document.createElement('script');
 
