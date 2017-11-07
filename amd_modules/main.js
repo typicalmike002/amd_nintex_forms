@@ -5,4 +5,4 @@ requirejs.config({
     }
 });
 
-requirejs(['modules/selectPortal']);
+requirejs(['modules/exampleModule']);
