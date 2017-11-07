@@ -1,0 +1,16 @@
+{
+  "name": "nintex-form-module-bundler",
+  "version": "1.0.0",
+  "description": "Technique for loading AMD modules into a SharePoint Nintex forms.  Usefull for when your application becomes complicated.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "typicalmike002",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-spsave": "^3.1.0"
+  }
+}

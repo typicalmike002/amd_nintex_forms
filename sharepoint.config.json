@@ -1,0 +1,10 @@
+{
+    "username": "username",
+    "password": "password",
+    "siteURL": "https://your-site-goes-here.sharepoint.com",
+    "directories": {
+        "index": "SiteAssets/scripts",
+        "amd_modules": "SiteAssets/scripts/amd_modules",
+        "dependencies": "SiteAssets/scripts/dependencies"
+    }
+}
