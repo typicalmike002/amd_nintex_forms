@@ -51,7 +51,6 @@ function onSuccess(sender, args) {
     var itemEnumerator = this.collection.getEnumerator();
     while (itemEnumerator.moveNext()) {
         var oListItem = itemEnumerator.get_current();
-        console.log(oListItem.get_fieldValues());
         queryResults.push(oListItem.get_fieldValues());
     }
     if (typeof this.onSuccess === 'function') {
