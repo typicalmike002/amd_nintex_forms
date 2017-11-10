@@ -7,7 +7,7 @@ var onError = function(err) {
     console.log(err);
     this.emit('end');
 }
-console.log(spConfig.username, spConfig.password);
+
 gulp.task('watch', function() {
     gulp.watch('index.js', ['push:index']);
     gulp.watch('amd_modules/**/*.js', ['push:amd_modules']);
